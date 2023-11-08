@@ -13,3 +13,7 @@ function alg() {
     }
     document.getElementById("ans").innerHTML = x;
 }
+
+function send() {
+    document.getElementById("S").submit();
+}
