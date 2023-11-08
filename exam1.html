@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <title>Заголовок моей страницы</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet"
+      type="text/css" />
+    <link rel="stylesheet" href="graund.css" />
+</head>
+<body>
+<div>
+
+  <div  style="text-align: center;"><H1>Алгоритмическая задача:</H1></div>
+  <p style="text-align: center;">Можно ли в квадратном зале площадью S поместить круглую сцену радиусом R так, чтобы от стены до сцены был проход не менее K?</p>
+  <form id="form1" name="f" method="get">
+
+    <label for="S">Площадь зала:</label>
+    <input type="text" id="S" name="S">
+
+    <label for="R">Радиус сцены:</label>
+    <input type="text" id="R" name="R">
+
+    <label for="K">Длинна прохода:</label>
+    <input type="text" id="K" name="K">
+
+    <button type="submit">Отправить</button>
+  </form>
+
+  <div style="text-align: center;">
+    <button onclick="alg()">Решить задачу</button>
+    <p>Ответ:</p>
+    <p id="ans"></p>
+  </div>
+</div>
+
+</body>
+<script src="alg.js"></script>
+
+</html>
+
